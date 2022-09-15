@@ -1,0 +1,19 @@
+.nav-link {
+  position: relative;
+  height: inherit;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.nav-link--active {
+  color: var(--color-primary);
+}
+
+.nav-link--active::after {
+  content: '';
+  border-bottom: 0.4rem solid var(--color-primary);
+  width: calc(100% + 2rem);
+  position: absolute;
+  align-self: flex-end;
+}

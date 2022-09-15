@@ -1,0 +1,24 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 110;
+  width: 100%;
+  background-color: var(--color-background-secondary);
+  height: var(--gap-extra-big);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-normal);
+}
+
+.nav__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  gap: var(--gap-big);
+  height: inherit;
+  place-items: center;
+}
+
+.nav__item {
+  height: inherit;
+}

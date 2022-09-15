@@ -1,0 +1,7 @@
+.section {
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 100;
+  padding-top: var(--gap-extra-big);
+}

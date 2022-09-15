@@ -1,0 +1,9 @@
+.about__img {
+  height: 18rem;
+  margin: var(--gap-extra-big);
+}
+
+.about__text {
+  text-align: justify;
+  width: 80%;
+}

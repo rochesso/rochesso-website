@@ -1,0 +1,14 @@
+.skills__item {
+  display: grid;
+  place-items: center;
+}
+
+.skills__title {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+}
+
+.skills__img {
+  height: 7rem;
+}
