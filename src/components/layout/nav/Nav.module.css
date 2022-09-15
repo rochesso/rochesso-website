@@ -1,21 +1,21 @@
 .nav {
+  background-color: var(--color-background-secondary);
+  box-shadow: var(--shadow-normal);
+  display: grid;
+  height: var(--gap-extra-big);
+  place-items: center;
   position: sticky;
   top: 0;
-  z-index: 110;
   width: 100%;
-  background-color: var(--color-background-secondary);
-  height: var(--gap-extra-big);
-  display: grid;
-  place-items: center;
-  box-shadow: var(--shadow-normal);
+  z-index: 110;
 }
 
 .nav__list {
-  list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, min-content);
   gap: var(--gap-big);
+  grid-template-columns: repeat(4, min-content);
   height: inherit;
+  list-style: none;
   place-items: center;
 }
 

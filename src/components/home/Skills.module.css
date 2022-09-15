@@ -1,15 +1,15 @@
 .skills__list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: var(--gap-medium);
-  place-items: center;
-  padding-top: var(--gap-big);
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
+  padding-top: var(--gap-big);
+  place-items: center;
 }
 
 .rocket {
-  margin-top: var(--gap-extra-big);
   height: 13rem;
+  margin-top: var(--gap-extra-big);
 }
 
 .rocket__text {

@@ -1,11 +1,11 @@
 .footer {
-  display: grid;
-  place-items: center;
-  width: var(--width-global);
-  padding-top: var(--gap-extra-big);
-  position: relative;
-  font-family: var(--font-family-secondary);
   color: var(--color-secondary);
+  display: grid;
+  font-family: var(--font-family-secondary);
+  padding-top: var(--gap-extra-big);
+  place-items: center;
+  position: relative;
+  width: var(--width-global);
 }
 
 .footer__content {
@@ -16,11 +16,11 @@
 }
 
 .footer__background {
+  fill: var(--color-background-tertiary);
+  filter: drop-shadow(3px 5px 30px #2b323d);
   position: absolute;
   transform: translateY(36%);
   z-index: 99;
-  fill: var(--color-background-tertiary);
-  filter: drop-shadow(3px 5px 30px #2b323d);
 }
 
 .email {
@@ -37,10 +37,10 @@
 }
 
 .copyright {
-  padding-top: var(--gap-small);
   font-family: var(--font-family-primary);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-light);
+  padding-top: var(--gap-small);
 }
 
 .back-button {

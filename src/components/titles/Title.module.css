@@ -1,14 +1,14 @@
 .title {
   display: grid;
+  font-family: var(--font-family-secondary);
+  height: calc(var(--gap-extra-big));
   place-items: center;
   width: 100%;
-  height: calc(var(--gap-extra-big));
-  font-family: var(--font-family-secondary);
 }
 
 .title::after {
-  content: '';
-  width: 70%;
   align-self: flex-end;
   border-bottom: 0.4rem solid var(--color-primary);
+  content: '';
+  width: 70%;
 }

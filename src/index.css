@@ -1,9 +1,9 @@
 *,
 *::after,
 *::before {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
 html {
@@ -13,23 +13,23 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: var(--font-family-primary), sans-serif;
-  font-weight: var(--font-weight-medium);
   color: var(--color-secondary);
+  font-family: var(--font-family-primary), sans-serif;
   font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
 }
 
 #root {
-  display: grid;
-  justify-items: center;
-  grid-auto-rows: auto auto 1fr auto;
   background-color: var(--color-background-primary);
+  display: grid;
+  grid-auto-rows: auto auto 1fr auto;
+  justify-items: center;
   min-height: 100vh;
   overflow: clip;
 }
 
 a {
+  color: var(--color-secondary);
   outline: none;
   text-decoration: none;
-  color: var(--color-secondary);
 }
