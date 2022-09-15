@@ -1,5 +1,6 @@
 import Section from '../UI/Section';
 
+import shuriken from '../../assets/svg/shuriken-svgrepo-com.svg';
 import kakashi from '../../assets/svg/icons8-kakashi-hatake.svg';
 import Title from '../titles/Title';
 import style from './About.module.css';
@@ -10,6 +11,7 @@ const About = () => {
       <Title>About</Title>
       <img className={style.about__img} src={kakashi} alt='Dog face' />
       <p className={style.about__text}>
+        <img className={style.shuriken} src={shuriken} alt='Shuriken' />
         What can a “full-stack web developer” do, you ask? I can conjur a
         website from nothing into existence, fully formed. I do not use tricks,
         nor is this magic. I specialize in manipulating the very fabric of the

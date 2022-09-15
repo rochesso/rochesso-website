@@ -7,3 +7,11 @@
   text-align: justify;
   width: 80%;
 }
+
+.shuriken {
+  position: absolute;
+  z-index: 100;
+  width: 9rem;
+  transform: translateX(-40%) translateY(-40%) rotate(20deg);
+  filter: opacity(13%);
+}

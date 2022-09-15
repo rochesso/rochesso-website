@@ -7,7 +7,7 @@ const LinkItem = (props) => {
       className={`${style['nav-link']}`}
       activeClass={style['nav-link--active']}
       spy
-      offset={-50}
+      offset={-51}
       smooth
       to={props.to}
     >
