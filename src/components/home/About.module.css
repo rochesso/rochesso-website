@@ -1,17 +1,10 @@
 .about__img {
-  height: 18rem;
-  margin: var(--gap-extra-big);
+    height: 18rem;
+    margin: var(--gap-extra-big)
 }
 
 .about__text {
-  text-align: justify;
-  width: 80%;
+    width: 80%;
+    text-align: justify
 }
 
-.shuriken {
-  filter: opacity(13%);
-  position: absolute;
-  transform: translateX(-40%) translateY(-40%) rotate(20deg);
-  width: 9rem;
-  z-index: 100;
-}
