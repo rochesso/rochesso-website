@@ -1,10 +1,14 @@
 .about__img {
-    height: 18rem;
-    margin: var(--gap-extra-big)
+  border-radius: 50%;
+  height: 18rem;
+  margin: var(--gap-extra-big);
 }
 
 .about__text {
-    width: 80%;
-    text-align: justify
+  text-align: justify;
+  width: 80%;
 }
 
+.about__text:not(:last-child) {
+  margin-bottom: 1rem;
+}

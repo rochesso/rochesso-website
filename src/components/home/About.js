@@ -1,30 +1,32 @@
 import Section from "../UI/Section";
-import kakashi from "../../assets/svg/icons8-kakashi-hatake.svg";
 import Title from "../titles/Title";
+
+import profilePicture from "../../assets/img/face-square.jpg";
+
 import style from "./About.module.css";
 
 const About = () => {
   return (
     <Section id="about">
       <Title>About</Title>
-      <img className={style.about__img} src={kakashi} alt="Dog face" />
+      <img className={style.about__img} src={profilePicture} alt="Profile" />
       <p className={style.about__text}>
-        Nostrud nostrud pariatur nisi Lorem officia id cupidatat cillum velit
-        cillum duis. Ullamco sint consectetur proident culpa occaecat dolore
-        incididunt id est do proident. Incididunt Lorem exercitation do enim.
-        Qui laboris excepteur enim nostrud dolor labore. Ad aliquip fugiat amet
-        amet in aliqua deserunt qui velit consequat et incididunt cupidatat et.
-        Sit nulla laboris voluptate commodo elit elit. Sit nisi sint dolor
-        mollit voluptate ut do. Eiusmod non non nostrud qui excepteur
-        reprehenderit qui quis elit officia officia voluptate. Incididunt
-        nostrud quis Lorem cupidatat irure do deserunt consequat. Adipisicing
-        pariatur occaecat excepteur labore incididunt excepteur. Aliqua
-        incididunt sint consequat pariatur ex. Deserunt amet magna deserunt
-        eiusmod enim excepteur velit amet sit. Excepteur qui nulla sint
-        voluptate nulla fugiat in laboris Lorem cupidatat eu ut nisi commodo.
-        Non cupidatat esse pariatur esse. Ullamco ullamco duis culpa cupidatat
-        consectetur. Qui veniam reprehenderit consequat commodo elit cupidatat.
-        Excepteur voluptate nisi anim fugiat ex eu labore dolore id irure.
+        Mathematics and technology have always been my passion. I always enjoyed
+        exploring different Linux distributions, building my own pc, creating
+        excel spreadsheets using VBA and solving maths problems.
+      </p>
+      <p className={style.about__text}>
+        I have completed my degree in Mathematics in 2018, worked as a maths
+        teacher and it was amazing, but it was in 2020 after moving to England
+        that someone introduced me to the web development world, and I found it
+        fascinating how it's possible to create basically anything coding.
+      </p>
+      <p className={style.about__text}>
+        Since then, learning about web development has become my hobby, and when
+        I am coding, time just flies. Instead of watching a TV show or playing a
+        game, coding is my new way to have fun, and why not work with something
+        you love to do? That's how I decided to become a full stack web
+        developer.
       </p>
     </Section>
   );

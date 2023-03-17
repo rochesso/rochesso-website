@@ -29,18 +29,26 @@
 }
 
 .social {
+  display: grid;
+  grid-template-columns: min-content min-content;
   padding-top: var(--gap-small);
+  place-items: center;
+  text-align: center;
 }
 
 .social__img {
   height: 8rem;
 }
 
+.social__title {
+  margin-top: -0.5rem;
+}
+
 .copyright {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-light);
-  padding-top: var(--gap-small);
+  padding-top: var(--gap-medium);
 }
 
 .back-button {

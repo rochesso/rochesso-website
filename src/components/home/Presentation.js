@@ -21,14 +21,13 @@ const Presentation = () => {
         </div>
       </div>
       <p className={style.presentation__text}>
-        Nulla incididunt ex aliquip dolor nostrud do consequat cupidatat magna
-        officia adipisicing commodo cupidatat. Ipsum dolor cupidatat cupidatat
-        cillum mollit. Cupidatat proident ex tempor nisi est veniam sit et magna
-        duis proident. Non occaecat qui veniam et. Deserunt sunt excepteur
-        cupidatat magna nostrud ex. Nulla commodo velit adipisicing amet id do
-        non ex ea proident id non sint in. Voluptate sint Lorem sit qui commodo
-        fugiat et. Dolor cillum aute sunt mollit qui esse elit nostrud.
-        Voluptate mollit esse esse enim aute Lorem veniam cupidatat ea.
+        As a passionate and dedicated individual with a strong interest in web
+        development, I possess a solid foundation of technical skills and a
+        desire to learn and grow in the field. Although I have no commercial
+        experience in web development, I have pursued various personal projects
+        and online courses to enhance my knowledge and skills in web
+        development, including HTML, CSS, JavaScript, TypeScript, React, NodeJS
+        and Python.
       </p>
     </Section>
   );

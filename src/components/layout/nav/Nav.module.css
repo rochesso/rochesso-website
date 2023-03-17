@@ -7,13 +7,13 @@
   position: sticky;
   top: 0;
   width: 100%;
-  z-index: 110;
+  z-index: 102;
 }
 
 .nav__list {
   display: grid;
   gap: var(--gap-big);
-  grid-template-columns: repeat(4, min-content);
+  grid-template-columns: repeat(5, min-content);
   height: inherit;
   list-style: none;
   place-items: center;
@@ -21,4 +21,16 @@
 
 .nav__item {
   height: inherit;
+}
+
+@media screen and (max-width: 400px) {
+  .nav__list {
+    gap: var(--gap-medium);
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .nav__list {
+    gap: var(--gap-small);
+  }
 }
