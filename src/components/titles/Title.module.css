@@ -9,6 +9,6 @@
 .title::after {
   align-self: flex-end;
   border-bottom: 0.4rem solid var(--color-primary);
-  content: '';
+  content: "";
   width: 70%;
 }

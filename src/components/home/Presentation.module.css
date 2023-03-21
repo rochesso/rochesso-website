@@ -1,76 +1,76 @@
 .presentation__img {
-    z-index: 101;
-    height: 18rem;
+  height: 18rem;
+  z-index: 101;
 }
 
 .presentation__text {
-    width: 80%;
-    margin-top: 3rem;
-    text-align: justify;
+  margin-top: 3rem;
+  text-align: justify;
+  width: 80%;
 }
 
 .presentation__system {
-    transform: rotateX(75deg) rotateY(-30deg);
-    animation-name: system;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    transform-style: preserve-3d;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: system;
+  animation-timing-function: linear;
+  transform: rotateX(75deg) rotateY(-30deg);
+  transform-style: preserve-3d;
 }
 
 .presentation__satellite {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 8rem;
-    margin-top: -1.5em;
-    margin-left: -1.5em;
-    animation-name: invert-orbit;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-radius: 50%;
-    transform-style: preserve-3d;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: invert-orbit;
+  animation-timing-function: linear;
+  border-radius: 50%;
+  left: 100%;
+  margin-left: -1.5em;
+  margin-top: -1.5em;
+  position: absolute;
+  top: 50%;
+  transform-style: preserve-3d;
+  width: 8rem;
 }
 
 .presentation__satellite--orbit {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 30rem;
-    height: 20rem;
-    margin-top: -48rem;
-    margin-left: -15rem;
-    animation-name: orbit;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    transform-style: preserve-3d;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: orbit;
+  animation-timing-function: linear;
+  height: 20rem;
+  left: 50%;
+  margin-left: -15rem;
+  margin-top: -48rem;
+  position: absolute;
+  top: 50%;
+  transform-style: preserve-3d;
+  width: 30rem;
 }
 
 @keyframes orbit {
-    0% {
-        transform: rotateZ(0deg);
-    }
-    100% {
-        transform: rotateZ(360deg);
-    }
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 @keyframes system {
-    0% {
-        z-index: 101;
-    }
-    100% {
-        z-index: 100;
-    }
+  0% {
+    z-index: 101;
+  }
+  100% {
+    z-index: 100;
+  }
 }
 
 @keyframes invert-orbit {
-    0% {
-        transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
-    }
-    100% {
-        transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
-    }
+  0% {
+    transform: rotateZ(360deg) rotateY(30deg) rotateX(-75deg);
+  }
+  100% {
+    transform: rotateZ(0deg) rotateY(30deg) rotateX(-75deg);
+  }
 }

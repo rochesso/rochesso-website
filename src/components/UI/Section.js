@@ -1,10 +1,16 @@
-import style from './Section.module.css';
+import { Fragment } from "react";
+import styles from "./Section.module.css";
 
 const Section = (props) => {
   return (
-    <section id={props.id} className={style.section}>
-      {props.children}
-    </section>
+    <Fragment>
+      <section id={props.id} className={styles.section}>
+        {props.children}
+      </section>
+
+      {/* Prevents 2 LinkItems to be active at same time  */}
+      <span className={styles.separator}></span>
+    </Fragment>
   );
 };
 

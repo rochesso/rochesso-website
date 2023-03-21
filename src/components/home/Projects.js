@@ -56,19 +56,6 @@ const Projects = () => {
           stackList={["HTML", "CSS", "SASS"]}
         />
       </div>
-
-      {/* <h3 className={style.project_category}>Full Stack</h3>
-      <a target="_blank" rel="noreferrer" className={style.project_title} href="https://social-bookshelf-6158b.web.app/">Social BookShelf</a>
-
-      <h3 className={style.project_category}>NodeJS</h3>
-      <a target="_blank" rel="noreferrer" className={style.project_title} href="https://project-nasa-c3c4f.web.app/">Project Nasa</a>
-
-      <h3 className={style.project_category}>CSS and SASS</h3>
-      <a target="_blank" rel="noreferrer" className={style.project_title} href="https://rochesso-natours.web.app/">Natours</a>
-      <a target="_blank" rel="noreferrer" className={style.project_title} href="https://rochesso-trillo-ced7b.web.app/">Trillo</a>
-      <a target="_blank" rel="noreferrer" className={style.project_title} href="https://rochesso-nexter.web.app/">Nexter</a>
-
-      <h4 className={style.project_category}>For more projects, access my GitHub!</h4> */}
     </Section>
   );
 };

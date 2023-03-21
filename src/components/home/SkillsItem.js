@@ -1,4 +1,4 @@
-import style from './SkillsItem.module.css';
+import style from "./SkillsItem.module.css";
 
 const SkillsItem = (props) => {
   return (

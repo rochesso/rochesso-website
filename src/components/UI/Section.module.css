@@ -5,3 +5,9 @@
   position: relative;
   z-index: 100;
 }
+
+/* Prevents 2 LinkItems to be active at same time */
+.separator {
+  display: block;
+  height: 2px;
+}
