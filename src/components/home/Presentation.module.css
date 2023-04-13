@@ -1,5 +1,5 @@
 .presentation__img {
-  height: 18rem;
+  height: 20rem;
   z-index: 101;
 }
 
@@ -30,7 +30,7 @@
   position: absolute;
   top: 50%;
   transform-style: preserve-3d;
-  width: 8rem;
+  width: 11rem;
 }
 
 .presentation__satellite--orbit {

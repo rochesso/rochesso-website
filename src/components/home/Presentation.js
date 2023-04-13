@@ -1,6 +1,6 @@
 import Section from "../UI/Section";
-import faceImage from "../../assets/svg/icons8-thor.svg";
-import satellite from "../../assets/img/icons8-thor-hammer-96.png";
+import faceImage from "../../assets/img/face.png";
+import satellite from "../../assets/img/moon.png";
 import style from "./Presentation.module.css";
 
 const Presentation = () => {
@@ -26,8 +26,8 @@ const Presentation = () => {
         desire to learn and grow in the field. Although I have no commercial
         experience in web development, I have pursued various personal projects
         and online courses to enhance my knowledge and skills in web
-        development, including HTML, CSS, JavaScript, TypeScript, React, NodeJS
-        and Python.
+        development, including HTML, CSS, JavaScript, TypeScript, React, NodeJS,
+        Python and C#.
       </p>
     </Section>
   );

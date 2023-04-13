@@ -20,7 +20,7 @@ const Projects = () => {
           img={bookShelf}
           code="https://github.com/rochesso/Social-BookShelf"
           web="https://social-bookshelf-6158b.web.app/"
-          description="Full stack application developed by me for practice purposes and to be part of my portfolio. On this project I focused more on the functionality than the design."
+          description="Full stack application developed by me for practice purposes and to be part of my portfolio. On this project I focused more on React, Redux, NodeJS, OAuth 2.0 and TypeScript."
           stackList={["React", "Redux", "NodeJS", "MongoDB", "PassportJS"]}
         />
         <Project

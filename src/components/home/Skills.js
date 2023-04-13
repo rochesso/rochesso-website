@@ -9,6 +9,8 @@ import javascriptIcon from "../../assets/svg/icons8-javascript.svg";
 import reactIcon from "../../assets/svg/icons8-react-native.svg";
 import nodejsIcon from "../../assets/svg/icons8-nodejs.svg";
 import pythonIcon from "../../assets/svg/icons8-python.svg";
+import csharpIcon from "../../assets/svg/icons8-c-sharp-logo.svg";
+import typeScriptIcon from "../../assets/svg/icons8-typescript.svg";
 import rocket from "../../assets/svg/rocket-launch.svg";
 
 const SKILLS = [
@@ -34,6 +36,27 @@ const SKILLS = [
   },
 
   {
+    title: "TypeScript",
+    alt: "TypeScript icon",
+    icon: typeScriptIcon,
+    key: Math.random().toString(),
+  },
+
+  {
+    title: "C#",
+    alt: "C Sharp icon",
+    icon: csharpIcon,
+    key: Math.random().toString(),
+  },
+
+  {
+    title: "Python",
+    alt: "Python icon",
+    icon: pythonIcon,
+    key: Math.random().toString(),
+  },
+
+  {
     title: "ReactJS",
     alt: "ReactJS icon",
     icon: reactIcon,
@@ -48,9 +71,9 @@ const SKILLS = [
   },
 
   {
-    title: "Python",
-    alt: "Python icon",
-    icon: pythonIcon,
+    title: "And more!",
+    alt: "Rocket icon",
+    icon: rocket,
     key: Math.random().toString(),
   },
 ];
@@ -68,9 +91,8 @@ const Skills = () => {
     <Section id="skills">
       <Title>Skills</Title>
       <ul className={style.skills__list}>{skillList}</ul>
-
-      <img src={rocket} className={style.rocket} alt="And more skills"></img>
-      <h3 className={style.rocket__text}>And more!</h3>
+      {/* <img src={rocket} className={style.rocket} alt="And more skills"></img>
+      <h3 className={style.rocket__text}>And more!</h3> */}
     </Section>
   );
 };
