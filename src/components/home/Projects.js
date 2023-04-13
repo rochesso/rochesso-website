@@ -34,7 +34,7 @@ const Projects = () => {
         <Project
           title="Natours"
           img={natours}
-          code="https://github.com/rochesso/CSS-SASS-AdvancedA"
+          code="https://github.com/rochesso/CSS-SASS-Advanced"
           web="https://natours.rochesso.com/"
           description="Project from the course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' completed by me at Udemy."
           stackList={["HTML", "CSS", "SASS"]}
