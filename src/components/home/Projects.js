@@ -19,7 +19,7 @@ const Projects = () => {
           title="Social BookShelf"
           img={bookShelf}
           code="https://github.com/rochesso/Social-BookShelf"
-          web="https://social-bookshelf-6158b.web.app/"
+          web="https://bookshelf.rochesso.com/"
           description="Full stack application developed by me for practice purposes and to be part of my portfolio. On this project I focused more on React, Redux, NodeJS, OAuth 2.0 and TypeScript."
           stackList={["React", "Redux", "NodeJS", "MongoDB", "PassportJS"]}
         />
@@ -27,7 +27,7 @@ const Projects = () => {
           title="Project Nasa"
           img={nasa}
           code="https://github.com/rochesso/Project-NASA"
-          web="https://project-nasa-c3c4f.web.app/"
+          web="https://nasa.rochesso.com/"
           description="Final project from the course 'Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more)."
           stackList={["React", "NodeJS", "MongoDB"]}
         />
@@ -35,7 +35,7 @@ const Projects = () => {
           title="Natours"
           img={natours}
           code="https://github.com/rochesso/CSS-SASS-AdvancedA"
-          web="https://rochesso-natours.web.app/"
+          web="https://natours.rochesso.com/"
           description="Project from the course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' completed by me at Udemy."
           stackList={["HTML", "CSS", "SASS"]}
         />
@@ -43,7 +43,7 @@ const Projects = () => {
           title="Trillo"
           img={trillo}
           code="https://github.com/rochesso/CSS-SASS-Advanced"
-          web="https://rochesso-trillo-ced7b.web.app/"
+          web="https://trillo.rochesso.com/"
           description="Project from the course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' completed by me at Udemy."
           stackList={["HTML", "CSS", "SASS"]}
         />
@@ -51,7 +51,7 @@ const Projects = () => {
           title="Nexter"
           img={nexter}
           code="https://github.com/rochesso/CSS-SASS-Advanced"
-          web="https://rochesso-nexter.web.app/"
+          web="https://nexter.rochesso.com/"
           description="Project from the course 'Advanced CSS and Sass: Flexbox, Grid, Animations and More!' completed by me at Udemy."
           stackList={["HTML", "CSS", "SASS"]}
         />
