@@ -9,6 +9,7 @@ import nasa from "../../assets/img/Nasa.png";
 import natours from "../../assets/img/Natours.png";
 import nexter from "../../assets/img/Nexter.png";
 import trillo from "../../assets/img/Trillo.png";
+import rochessoCV from "../../assets/img/rochessoCV.png";
 
 const Projects = () => {
   return (
@@ -30,6 +31,14 @@ const Projects = () => {
           web="https://nasa.rochesso.com/"
           description="Final project from the course 'Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more)."
           stackList={["React", "NodeJS", "MongoDB"]}
+        />
+        <Project
+          title="Rochesso CV"
+          img={rochessoCV}
+          code="https://github.com/rochesso/rochesso-ts"
+          web="https://cv.rochesso.com/"
+          description="Simple website created with React and TypeScript to practice."
+          stackList={["React", "TypeScript"]}
         />
         <Project
           title="Natours"
